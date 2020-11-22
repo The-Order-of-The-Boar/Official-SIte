@@ -3,10 +3,6 @@
 
 
 
-var subpages = document.getElementsByClassName("Subpage");
-for(i=0;i<subpages.length;i++){
-    subpages[i].style.display = "none";
-}
 
 var c_div = "Home";
 document.getElementById(c_div).style.display = "block";
