@@ -74,7 +74,10 @@ p{
 .Pages:hover{
     background-color: rgb(41, 58, 59);
 }
-
+/*Subpages */
+.Subpage{
+    display: none;
+}
 
 /*Eyeeeder Page */
 table{
