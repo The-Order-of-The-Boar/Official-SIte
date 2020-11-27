@@ -2,14 +2,13 @@
 ////////////////////////////////////Pages Exchange///////////////////////////////////////
 
 
+window.onload = function(){
 
-var subpages = document.getElementsByClassName("Subpage");
-for(i=0;i<subpages.length;i++){
-    subpages[i].style.display = "none";
-}
+    var c_div = "Home";
+    document.getElementById(c_div).style.display = "block";
+s}
 
-var c_div = "Home";
-document.getElementById(c_div).style.display = "block";
+
 
 function RenderSubPage(new_element){
     document.getElementById(c_div).style.display = "none";
@@ -78,7 +77,6 @@ function GetEyeeederRank(){
     }
 
     document.getElementById("Eyeeeder").appendChild(table);
-
 
 }
 
